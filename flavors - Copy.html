@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop Flash - Flavors</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+        <div class="logo">
+            <img src="logo.jpg" alt="POP FLASH LOGO">
+        </div>
+           <a href="#" class="nav__logo">Pop Flash</a>
+
+           <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">
+                 <li class="nav__item">
+                    <a href="index.html" class="nav__link">
+                       <i class="ri-arrow-right-up-line"></i>
+                       <span>Home</span>
+                    </a>
+                 </li>
+
+                 <li class="nav__item">
+                    <a href="flavors.html" class="nav__link">
+                       <i class="ri-arrow-right-up-line"></i>
+                       <span>Flavors</span>
+                    </a>
+                 </li>
+
+                 <li class="nav__item">
+                    <a href="cart.html" class="nav__link">
+                       <i class="ri-arrow-right-up-line"></i>
+                       <span>Cart</span>
+                    </a>
+                 </li>
+
+                 <li class="nav__item">
+                    <a href="about.html" class="nav__link">
+                       <i class="ri-arrow-right-up-line"></i>
+                       <span>About</span>
+                    </a>
+                 </li>
+
+                 <li class="nav__item">
+                    <a href="video.html" class="nav__link">
+                       <i class="ri-arrow-right-up-line"></i>
+                       <span>Video</span>
+                    </a>
+                 </li>
+
+                 <li class="nav__item">
+                    <a href="contact.html" class="nav__link">
+                       <i class="ri-arrow-right-up-line"></i>
+                       <span>Contact</span>
+                    </a>
+                 </li>
+              </ul>
+            
+              <!-- Close button -->
+              <div class="nav__close" id="nav-close">
+                 <i class="ri-close-large-line"></i>
+              </div>
+
+              <div class="nav__social">
+                 <a href="https://www.facebook.com/profile.php?id=61569588533611" target="_blank" class="nav__social-link">
+                  <i class="ri-facebook-circle-line"></i>
+                 </a>
+
+                 <a href="https://www.instagram.com/popflash__?" target="_blank" class="nav__social-link">
+                    <i class="ri-instagram-line"></i>
+                 </a>
+
+                 <a href="https://www.tiktok.com/@popflash.09" target="_blank" class="nav__social-link">
+                    <i class="ri-tiktok-line"></i>
+                 </a>
+
+                 <a href="https://www.youtube.com/@PopFlash.09" target="_blank" class="nav__social-link">
+                    <i class="ri-youtube-line"></i>
+                 </a>
+              </div>
+           </div>
+
+           <!-- Toggle button for responsive navigation -->
+    <div class="nav__toggle" id="nav-toggle">
+      <i class="ri-menu-line"></i>
+    </div>
+  </nav>
+</header>
+
+    <section id="flavors">
+        <h1>Our Flavors</h1>
+        <div class="flavor-grid">
+            <div class="flavor-card" data-flavor="Strawberry">
+                <img src="strawberry.jpg" alt="Strawberry">
+                <h2>Strawberry</h2>
+                <p>$2.99</p>
+                <button class="add-to-cart" data-name="Strawberry" data-price="2.99">Add to Cart</button>
+                <button class="like-btn" data-flavor="Strawberry">
+                    ❤️ <span class="like-count">0</span>
+                </button>
+            </div>
+            <div class="flavor-card" data-flavor="Blueberry">
+                <img src="blueberry.jpg" alt="Blueberry">
+                <h2>Blueberry</h2>
+                <p>$2.99</p>
+                <button class="add-to-cart" data-name="Blueberry" data-price="2.99">Add to Cart</button>
+                <button class="like-btn" data-flavor="Blueberry">
+                    ❤️ <span class="like-count">0</span>
+                </button>
+            </div>
+            <div class="flavor-card" data-flavor="Green Apple">
+                <img src="greenapple.jpg" alt="Green Apple">
+                <h2>Green Apple</h2>
+                <p>$2.99</p>
+                <button class="add-to-cart" data-name="Green Apple" data-price="2.99">Add to Cart</button>
+                <button class="like-btn" data-flavor="Green Apple">
+                    ❤️ <span class="like-count">0</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

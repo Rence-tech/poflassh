@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop Flash - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+        <div class="logo">
+            <img src="logo.jpg" alt="POP FLASH LOGO">
+        </div>
+
+           <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">
+                 <li class="nav__item">
+                    <a href="index.html" class="nav__link">
+                       <i class="ri-arrow-right-up-line"></i>
+                       <span>Home</span>
+                    </a>
+                 </li>
+
+                 <li class="nav__item">
+                    <a href="flavors.html" class="nav__link">
+                       <i class="ri-arrow-right-up-line"></i>
+                       <span>Flavors</span>
+                    </a>
+                 </li>
+
+                 <li class="nav__item">
+                    <a href="about.html" class="nav__link">
+                       <i class="ri-arrow-right-up-line"></i>
+                       <span>About</span>
+                    </a>
+                 </li>
+
+                 <li class="nav__item">
+                    <a href="video.html" class="nav__link">
+                       <i class="ri-arrow-right-up-line"></i>
+                       <span>Video</span>
+                    </a>
+                 </li>
+
+                 <li class="nav__item">
+                    <a href="contact.html" class="nav__link">
+                       <i class="ri-arrow-right-up-line"></i>
+                       <span>Contact</span>
+                    </a>
+                 </li>
+              </ul>
+            
+              <!-- Close button -->
+              <div class="nav__close" id="nav-close">
+                 <i class="ri-close-large-line"></i>
+              </div>
+
+              <div class="nav__social">
+                 <a href="https://www.facebook.com/profile.php?id=61569588533611" target="_blank" class="nav__social-link">
+                  <i class="ri-facebook-circle-line"></i>
+                 </a>
+
+                 <a href="https://www.instagram.com/popflash__?" target="_blank" class="nav__social-link">
+                    <i class="ri-instagram-line"></i>
+                 </a>
+
+                 <a href="https://www.tiktok.com/@popflash.09" target="_blank" class="nav__social-link">
+                    <i class="ri-tiktok-line"></i>
+                 </a>
+
+                 <a href="https://www.youtube.com/@PopFlash.09" target="_blank" class="nav__social-link">
+                    <i class="ri-youtube-line"></i>
+                 </a>
+              </div>
+           </div>
+
+           <!-- Toggle button for responsive navigation -->
+    <div class="nav__toggle" id="nav-toggle">
+      <i class="ri-menu-line"></i>
+    </div>
+  </nav>
+</header>
+
+<div class="carousel">
+   <div class="list">
+       <div class="item active" style="--background: #EA3D41">
+           <div class="content">Strawberry</div>
+           <img src="fruit_strawberry.png" class="fruit">
+       </div>
+       <div class="item" style="--background: #2D5643">
+           <div class="content">avocado</div>
+           <img src="fruit_avocado.png" class="fruit">
+       </div>
+       <div class="item hidden" style="--background: #E7A043">
+           <div class="content">orange</div>
+           <img src="fruit_orange.png" class="fruit">
+       </div>
+   </div>
+   <div class="leaves"></div>
+   <div class="mockup"></div>
+   <div class="shadow"></div>
+   <div class="arrow">
+       <button id="prev"><</button>
+       <button id="next">></button>
+   </div>
+</div>
+ 
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
